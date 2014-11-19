@@ -15,11 +15,17 @@ body{
 #page-wrapper{
   background-color: white;
   margin: 0 auto;
+  max-width: 960px;
 }
 #content{
   background-color: #f7f2da;
   padding: 0 1em 1em 0;
   margin: 0 0 10px 0;
+  float: left;
+  width: 625px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 nav{
   background-color: gray;
@@ -31,10 +37,27 @@ nav ul{
   list-style-type: none;
 }
 footer{
-  clear: both;
-  
+  clear: both;  
 }
-/* ----- Left-Sided Nav Menu ----- */
+
+/* ----- Ad Styling ----- */
+#sidebar{
+  width: 160px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+}
+.wide-skyscaper-ad{
+  width: 160px;
+  height: 600px;
+  background-color: silver;
+}
+
+/* ----- Three-Column Fixed Layout ----- */
+#page-wrapper{
+  width: 960px;
+}
 nav{
   float: left;
   width: 175px;
@@ -42,9 +65,8 @@ nav{
   -moz-box-sizing: border-box;
   box-sizing: border-box;  
 }
-#content {
-  float: left;
-  width: 593px;
+#sidebar{
+  width: 160px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
