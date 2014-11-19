@@ -1,13 +1,13 @@
 /**
- * ===========================================================
- * styles.css -- Global styles for the MyRWD website
- * ===========================================================
- *
- * Created November 11, 2014
- *
- * Authored by David Rivas
- *
- */
+* ===========================================================
+* styles.css -- Global styles for the MyRWD website
+* ===========================================================
+*
+* Created November 11, 2014
+*
+* Authored by David Rivas
+*
+*/
 /*----- Basic Styling -----*/
 body{
   background-color: lightblue;
@@ -29,4 +29,23 @@ nav{
 nav ul{
   padding: 3px 10px ;
   list-style-type: none;
+}
+footer{
+  clear: both;
+  
+}
+/* ----- Left-Sided Nav Menu ----- */
+nav{
+  float: left;
+  width: 175px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;  
+}
+#content {
+  float: left;
+  width: 593px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
